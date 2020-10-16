@@ -16,5 +16,10 @@ module.exports = {
   ],
   plugins: ['prettier'],
   // add your custom rules here
-  rules: {},
+  rules: {
+    "prettier/prettier": "off",
+    "no-console": 0,
+    "no-return-await": 0,
+    "comma-dangle": [1, "never"]
+  }
 }
